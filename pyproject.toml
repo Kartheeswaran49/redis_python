@@ -1,0 +1,5 @@
+[project]
+name = "pyredis"
+version = "0.1.0"
+description = "Redis Server built using Python"
+dependencies = []
