@@ -30,7 +30,7 @@ class Integer:
     value: int
 
     def as_str(self):
-        return self.data
+        return self.value
 
     def resp_encode(self):
         return f":{self.value}{_DELIMITER}".encode()
